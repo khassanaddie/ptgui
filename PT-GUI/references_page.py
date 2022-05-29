@@ -129,8 +129,8 @@ class ReferencesPage(tk.Frame):
                          "https://stackoverflow.com/questions/49037051/when-using-the-pack-layout-of-tkinter-how-can-i-have-a-labels-wraplength-be-eq")
         create_reference("", "Used this site to learn how to add horizontal scrollbars to toolkit",
                          "https://pythonguides.com/python-tkinter-scrollbar/")
-        # ATTACK VECTOR 1 REFERENCES
-        create_reference("Attack Vector One",
+        # ATTACK VECTOR 1 REFERENCES - Reverse TCP Shell
+        create_reference("Reverse TCP Shell Attack Vector",
                          "Repository where 'pymetasploit3.msfrpc' module is imported from. Used as"
                          " guide for communication with MSFRPC framework",
                          "https://github.com/DanMcInerney/pymetasploit3")
@@ -141,8 +141,8 @@ class ReferencesPage(tk.Frame):
         create_reference("", "Used to help define 'set_IP()' function.",
                          "https://stackoverflow.com/questions/166506/finding-local-ip-addresses-using-pythons-stdlib")
 
-        # ATTACK VECTOR 2 REFERENCES
-        create_reference("Attack Vector Two",
+        # ATTACK VECTOR 2 REFERENCES - Directory Traversal & IDOR
+        create_reference("Directory Traversal & IDOR Attack Vector",
                          "Mutillidae is a deliberately broken web application which I installed to"
                          " guide me in the creation and testing of my tool since the blue teams "
                          "network was not operational.",
@@ -158,8 +158,8 @@ class ReferencesPage(tk.Frame):
                          "user to create a tool or conduct an attack for a vulnerability of this nature. ",
                          "https://portswigger.net/web-security/access-control/idor ")
 
-        # ATTACK VECTOR 3 REFERENCES
-        create_reference("Attack Vector Three",
+        # ATTACK VECTOR 3 REFERENCES - Unpatched Vulnerabilities and Exploits
+        create_reference("Unpatched Vulnerabilities and Exploits Attack Vector",
                          "Used in session function to help find session and read console "
                          "function",
                          "https://infosec.smashedpixels.pro/metasploit-automatization-using-python/")
